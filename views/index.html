@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="/publics/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/publics/css/style.css">
+</head>
+<body>
+
+<div class="container" style="margin-top: 20px">
+    <div class="col-lg-4">
+        <div class="list-group">
+            <a class="list-group-item disabled">
+                List Friends
+            </a>
+            <div id="list_users">
+
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-8">
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <h3 class="panel-title">Panel title</h3>
+            </div>
+            <div class="panel-body">
+                <ul id="list_chat">
+                </ul>
+                <form action="">
+                    <textarea name="" class="form-control" id="msg" cols="30" rows="3"></textarea>
+                    <input type="submit" class="form-control" id="send_msg">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/publics/js/jquery.min.js"></script>
+<script src="/publics/js/socket.io.js"></script>
+<script src="/publics/js/bootstrap.min.js"></script>
+<script src="/publics/js/main.js"></script>
+</body>
+</html>

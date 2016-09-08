@@ -1,0 +1,15 @@
+#list_chat {
+    padding: 0;
+}
+#list_chat li {
+    list-style: none;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 4px 0px;
+}
+#list_chat span {
+    background: #84b184;
+    padding:10px;
+    margin: -10px -10px 0px 0px;
+    color: #fff;
+}
